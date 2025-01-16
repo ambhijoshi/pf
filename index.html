@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Dynamic Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,26 +19,17 @@
 
   <section id="hero">
     <h1>Welcome to My Portfolio</h1>
-    <p>I'm [Your Name], a [Your Profession].</p>
+    <p>I'm <span id="name"></span>, a <span id="profession"></span>.</p>
   </section>
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I'm passionate about creating innovative solutions and love to work on exciting projects.</p>
+    <p id="about-text"></p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project" id="project1">
-      <h3>Project 1</h3>
-      <p>A brief description of your project.</p>
-      <a href="#">View Details</a>
-    </div>
-    <div class="project" id="project2">
-      <h3>Project 2</h3>
-      <p>A brief description of your project.</p>
-      <a href="#">View Details</a>
-    </div>
+    <div id="project-container"></div>
   </section>
 
   <section id="contact">
@@ -58,7 +49,7 @@
   </section>
 
   <footer>
-    <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+    <p>&copy; 2025 <span id="footer-name"></span>. All rights reserved.</p>
   </footer>
 
   <script src="script.js"></script>
