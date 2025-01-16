@@ -71,3 +71,38 @@ form input, form textarea, form button {
   border: 1px solid #ddd;
   border-radius: 5px;
 }
+
+
+
+
+/* Same as before with a few additions */
+.project {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#hero {
+  background: linear-gradient(45deg, #6b5b95, #feb236);
+  color: #fff;
+  padding: 50px 20px;
+}
+
+button {
+  background-color: #6b5b95;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #feb236;
+}
